@@ -1,4 +1,10 @@
-let React = require("react");
-let ReactDOM = require("react-dom");
+import React from "react";
+import ReactDOM from "react-dom";
 
-ReactDOM.render(<h1>hello</h1>, document.getElementById("root"));
+ReactDOM.render(
+  <div>
+    <h1>hello</h1>
+    <p>world!</p>
+  </div>,
+  document.getElementById("root")
+);
